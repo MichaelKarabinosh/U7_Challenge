@@ -1,8 +1,3 @@
-import org.w3c.dom.css.Rect;
-
-import java.lang.reflect.Array;
-import java.util.ArrayList;
-
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
@@ -54,11 +49,7 @@ int count = 0;
         {
             return true;
         }
-        if (x <= 10 && xbot >= 10 &&  y <= 15 && ybot >= 5)
-        {
-            return true;
-        }
-        return false;
+        return x <= 10 && xbot >= 10 && y <= 15 && ybot >= 5;
 
     }
 
