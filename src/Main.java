@@ -42,6 +42,22 @@ int count = 0;
         {
             return true;
         }
+        if (x >= 10 && xbot <= 30 &&  y >= 5 && ybot <= 5)
+        {
+            return true;
+        }
+        if (x >= 10 && xbot <= 30 &&  y >= 15 && ybot <= 15)
+        {
+            return true;
+        }
+        if (x <= 30 && xbot >= 30 &&  y <= 15 && ybot >= 5)
+        {
+            return true;
+        }
+        if (x <= 10 && xbot >= 10 &&  y <= 15 && ybot >= 5)
+        {
+            return true;
+        }
         return false;
 
     }
